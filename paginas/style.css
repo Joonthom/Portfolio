@@ -15,49 +15,13 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #edf2f6;
     font-family: 'Nunito', sans-serif;
-}
-
-/* Koptekst */
-.headertxt {
-    padding-left: 40px;
-}
-
-/* Text Footer */
-.logo-text {
-    text-align: left;
-    color: #edf2f6;
-    font-size: 17px;
-
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both
-}
-
-.column-66 {
-    float: left;
-    width: 66.66666%;
-    padding: 20px;
-}
-
-.column-33 {
-    float: left;
-    width: 33.33333%;
-    padding: 20px;
-}
-
-.column-100 {
-    float: left;
-    width: 100%;
-    padding: 20px;
 }
 
 /* header */
@@ -93,7 +57,6 @@ header {
 /* Navbar wanneer je over heen gaat met muis */
 .navbar a:hover {
     background-color: #2F5095;
-
 }
 
 /* List Navbar */
@@ -165,20 +128,22 @@ li a:hover {
 /* Article */
 
 .tekst-vak {
-    min-height: 100%;
     overflow-x: auto;
     padding: 64px;
     overflow-y: hidden;
 }
 
+.container {
+    min-height: 100%;
+}
+
 article {
     float: left;
     padding: 10px;
-    width: 100%;
+    max-width: 100%;
     margin: 0px;
     position: relative;
     background-color: #c8e0f4;
-    min-height: 100%;
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -189,74 +154,14 @@ section::after {
     clear: both;
 }
 
-/* Media Css */
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 33.33333336%;
-}
-
-@media screen and (max-width: 1000px) {
-
-    nav,
-    article {
-        width: 100%;
-        height: auto;
-    }
-
-    .column-66,
-    .column-33 {
-        width: 100%;
-        text-align: center;
-    }
-
-    img {
-        margin: auto;
-    }
-
-    .responsive {
-        width: 100%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 100%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-/* footer
-.footer {
-
-    max-width: 100%;
-    background: #2F5095;
-    height: 180px;
-    display: flex;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    z-index: 10;
-    clear: both;
-    margin-top: -100px;
-}
-
-*/
+/* footer */
 
 .footer {
 
     background: #2F5095;
     position: relative;
     height: 200px;
-    margin-top: -100px;
+    margin-top: -200px;
     clear: both;
 }
 
@@ -309,14 +214,6 @@ section::after {
     margin-left: auto;
     margin-right: auto;
     bottom: 0;
-}
-
-/* Kleur icons*/
-
-a,
-a:hover {
-    color: #EDF2F6;
-    text-decoration: none;
 }
 
 /* APB Foto rij */

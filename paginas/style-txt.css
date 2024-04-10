@@ -1,0 +1,51 @@
+/* Koptekst */
+.headertxt {
+    padding-left: 40px;
+}
+
+/* Text Footer */
+.logo-text {
+    text-align: left;
+    color: #edf2f6;
+    font-size: 17px;
+
+}
+
+/* Kleur icons*/
+
+a,
+a:hover {
+    color: #EDF2F6;
+    text-decoration: none;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+}
+
+.column-50 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+}
+
+.column-100 {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
