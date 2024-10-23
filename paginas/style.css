@@ -134,13 +134,16 @@ li a:hover {
 }
 
 .container {
-    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 article {
     float: left;
     padding: 10px;
+    width: 100%;
     max-width: 100%;
+    min-height: 300px;
     margin: 0px;
     position: relative;
     background-color: #c8e0f4;
@@ -161,7 +164,6 @@ section::after {
     background: #2F5095;
     position: relative;
     height: 200px;
-    margin-top: -200px;
     clear: both;
 }
 

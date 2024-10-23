@@ -11,6 +11,11 @@
 
 }
 
+.p-txt {
+    text-align: justify;
+}
+
+
 /* Kleur icons*/
 
 a,
@@ -42,6 +47,7 @@ a:hover {
     float: left;
     width: 66.66666%;
     padding: 20px;
+    text-align: justify;
 }
 
 .column-100 {
