@@ -185,6 +185,10 @@ article {
     overflow-y: hidden;
 }
 
+section {
+    margin: 0px;
+}
+
 section::after {
     content: "";
     display: table;
