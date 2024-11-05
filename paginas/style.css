@@ -34,7 +34,7 @@ body {
 .logo-text {
     text-align: left;
     color: #edf2f6;
-    font-size: 17px;
+    font-size: 15px;
 
 }
 
@@ -251,7 +251,7 @@ section::after {
 
 .footer .footer-content .about .contact {
     display: block;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: -5px;
     text-align: left;
     word-spacing: 4px;
@@ -278,7 +278,8 @@ section::after {
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
+    margin-top: -5px;
     left: 0px;
     padding-top: 10px;
     margin-left: auto;
