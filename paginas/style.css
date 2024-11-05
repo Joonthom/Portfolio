@@ -27,6 +27,7 @@ body {
 /* Koptekst */
 .headertxt {
     padding-left: 40px;
+    font-size: 25px;
 }
 
 /* Text Footer */
@@ -115,6 +116,7 @@ header {
 /* Navbar wanneer je over heen gaat met muis */
 .navbar a:hover {
     background-color: #2F5095;
+    color: #EDF2F6;
 }
 
 /* List Navbar */
@@ -155,9 +157,11 @@ ul {
     display: none;
     position: absolute;
     background-color: #EDF2F6;
+    color: #2F5095;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 5px;
 }
 
 /* Dropdown Box Content */
@@ -166,13 +170,15 @@ ul {
     color: #2F5095;
     padding: 12px 16px;
     text-decoration: none;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
     display: block;
     text-align: left;
 }
 
 .dropdown-content a:hover {
     background-color: #d9dcde;
-    color: #1C1C29;
+    color: #2F5095;
 }
 
 .dropdown:hover .dropdown-content {
